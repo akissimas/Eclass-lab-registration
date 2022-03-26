@@ -1,0 +1,17 @@
+{
+  "name": "Eclass extension",
+  "description": "A eclass chrome extension for automatic registration in a lab",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Eclass extension",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "/images/openeclass_16x16.png",
+    "48": "/images/openeclass_48x48.png",
+    "128": "/images/openeclass_128x128.png"
+  },
+  "permissions": ["scripting", "tabs", "webNavigation"],
+  "host_permissions": ["https://*/*", "http://*/*"]
+}
